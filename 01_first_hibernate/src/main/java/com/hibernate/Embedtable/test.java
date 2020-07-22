@@ -12,7 +12,6 @@ public class test {
 		
 		Configuration conf=new Configuration();
 		conf.configure("config.cfg.xml");
-		
 		SessionFactory factory=conf.buildSessionFactory();
 		Session session=factory.openSession();
 		Transaction tx=session.beginTransaction();

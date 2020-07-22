@@ -15,7 +15,8 @@
 			
 		<mapping class="com.hibernate._first_hibernate.Student"/>	
 		<mapping class="com.hibernate.Embedtable.student"/>
-		
+		<mapping  class="com.hibernate.one2one.Question"/>
+		<mapping class="com.hibernate.one2one.Answer"/>
 	</session-factory>
 
 
